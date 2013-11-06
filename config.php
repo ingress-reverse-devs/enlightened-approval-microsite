@@ -2,31 +2,31 @@
 // CONTACT INFO FOR IMPRINT
 // if you want to use this tool you must complete all contact fields
 // ----------------------------------------------------------------------------
-	$contact = array( 
-		'name' => '', // Hans Gurke
-		'street' => '', // Landstr. 12
-		'city' => '', // 12345 Ort
-		'mail' => '' // hans.gurke@domain.com
-	);
+    $contact = array( 
+        'name' => 'Ingress', // Hans Gurke
+        'street' => 'Enlightened', // Landstr. 12
+        'city' => 'Leipzig', // 12345 Ort
+        'mail' => 'ingress-leipzig@gmx-topmail.de' // hans.gurke@domain.com
+    );
 
 
 // BASICS CONFIG
 // ----------------------------------------------------------------------------
 
-	// Obligatory config values
-	// please complete all - otherwise the tool won't work properly
-	$config = array( 
-	// default language (en | de)
-		'language' => 'en',
- 	// Google Maps API key for background map - how to get one: http://goo.gl/g7zFq
-		'mapsApiKey' => '',
-	// local coords for background map and links (51.573816,11.117992)		
-		'mapsCoords' => '',
-	// mail address of moderator / mailing list - for notifications about new users		
-		'mail_mods' => '',
-	// from mail adress of info mail to user - to avoid SPAM rating 
-			'mail_noreply' => '', 
-	);
+    // Obligatory config values
+    // please complete all - otherwise the tool won't work properly
+    $config = array( 
+    // default language (en | de)
+        'language' => 'de',
+     // Google Maps API key for background map - how to get one: http://goo.gl/g7zFq
+        'mapsApiKey' => '',
+    // local coords for background map and links (51.573816,11.117992)        
+        'mapsCoords' => '51.339902,12.37631',
+    // mail address of moderator / mailing list - for notifications about new users        
+        'mail_mods' => 'ingress-leipzig@gmx-topmail.de',
+    // from mail adress of info mail to user - to avoid SPAM rating 
+        'mail_noreply' => 'ingress-leipzig@gmx-topmail.de', 
+    );
 
 	// User data storage
 	// please replace "XXXX" of both fields with your values
